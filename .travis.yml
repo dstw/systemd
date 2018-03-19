@@ -70,8 +70,3 @@ env:
         - CI_DIR="$TRAVIS_BUILD_DIR/travis-ci"
         - CI_TOOL_DIR="$CI_DIR/tools"
         - CI_SCRIPT_DIR="$CI_DIR/scripts"
-
-notifications:
-  email:
-    recipients:
-      - ${ADMIN_EMAIL}
